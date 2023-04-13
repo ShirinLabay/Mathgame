@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Manrope:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="heading1">Press a key to start</h1>
+    <div class="question">
+      <span><label for="question-x" class="question-x">a </label></span>
+      <span><label for="question" class="question"> x </label></span>
+      <span><label for="question-y" class="question-y">b </label></span>
+      <span><label for="question" class="question"> = </label></span>
+      <span>
+        <input
+          type="text"
+          id="answer"
+          name="answer"
+          required
+          minlength="1"
+          maxlength="8"
+          size="10"
+        />
+      </span>
+      <span><button id="btn" class="btn">CHECK</button> </span>
+      <span><button id="btn2" class="btn2">NEXT</button> </span>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
